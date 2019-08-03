@@ -9,9 +9,9 @@ public class HelloWorldTest {
 	@Test
 	public void Login() {
 		System.out.println("Login into the account"); 
-		//System.setProperty("webdriver.chrome.driver", "C:\\Users\\$krish$\\Downloads\\chromedriver_win32\\chromedriver.exe");
-		//WebDriver driver=new ChromeDriver();
-		//driver.get("http://www.mkcreative.ga");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\$krish$\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.get("http://www.mkcreative.ga");
 	}
 
 }
