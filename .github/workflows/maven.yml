@@ -29,3 +29,5 @@ jobs:
       run: |
          cd target
          ls -a
+    - name: run jar file         
+      run: java -jar myMavenProject-2-SNAPSHOT.jar &
