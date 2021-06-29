@@ -48,4 +48,8 @@ jobs:
       run: echo ${{ steps.docker_build.outputs.digest }}
     
     - name: Image run
-      run: docker run -itd --name github -p 8080:8080 krish6654/githubtest:latest
+      run: docker run -itd --name github -p 8080:8080 krish6654/githubtest:latest 
+    - name: Image run
+      run: | 
+        docker ps -a
+        ifconfig
